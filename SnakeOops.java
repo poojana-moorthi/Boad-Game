@@ -8,7 +8,7 @@ class Player
     public Player(String name) 
     {
         this.name = name;
-        this.position = 0; // start position
+        this.position = 0; 
     }
 
     public String getName() 
@@ -154,7 +154,7 @@ class SnakeLadderGame
     }
 }
 
-// Driver class
+
 public class SnakeOops 
 {
     public static void main(String[] args) 
