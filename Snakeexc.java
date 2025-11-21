@@ -106,17 +106,21 @@ public class Snakeexcln
                 }
             }
         } 
-        catch (InputMismatchException e) {
-            System.out.println("❌ Invalid input! Please enter a valid number for players.");
+        catch (InputMismatchException e) 
+        {
+            System.out.println("Invalid input! Please enter a valid number for players.");
         } 
-        catch (IllegalArgumentException e) {
-            System.out.println("⚠️ " + e.getMessage());
+        catch (IllegalArgumentException e) 
+        {
+            System.out.println(e.getMessage());
         } 
-        catch (Exception e) {
-            System.out.println("⚠️ Unexpected error: " + e.getMessage());
+        catch (Exception e) 
+        {
+            System.out.println(" Unexpected error: " + e.getMessage());
         } 
-        finally {
-            System.out.println("🎯 Thanks for playing Snake & Ladder!");
+        finally 
+        {
+            System.out.println("Thanks for playing Snake & Ladder!");
             sc.close();
         }
     }
